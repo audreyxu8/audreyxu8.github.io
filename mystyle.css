@@ -1,6 +1,7 @@
 h1,
 h2,
 h3{
+    font-size::80%;
     text-shadow: 3px 2px purple;
     font-family"Times new Roman";
 }
