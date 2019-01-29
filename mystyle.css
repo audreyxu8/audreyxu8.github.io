@@ -1,22 +1,22 @@
-h1,
-h2,
-h3{
+ h1,
+ h2,
+ h3{
     text-shadow: 3px 2px purple;
     font-family"Times new Roman";
-}
+ }
 
-h1{
+ h1{
     font-size: 90px;
-}
+ }
 
-h2{
+ h2{
     font-size: 60px;
-}
-h3{
-    font-size: 40px;
-}
+ }
+ h3{
+    font-size: 80px;
+ } 
 
-p{
+ p{
 
   background-color: lightgrey;
   width: 1900px;
@@ -25,4 +25,4 @@ p{
   margin: 25px;
     
     font-size:50px;
-}
+ }
