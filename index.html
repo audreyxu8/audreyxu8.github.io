@@ -20,22 +20,29 @@
       <h1> Web Advanced: Javascript.B.Sp19 </h1>
       
       <h2> Audrey Xu </h2>
-        <img src ="img/audrey.jpg" alt="audrey" width="500" height="700">
       
+        <img src ="img/audrey.jpg" alt="audrey" width="200" height="300">
+      
+      <div id="introBorder">
         <p> Hello, it is me, Audrey. I am a 19 year old sophmore currently enrolled in BFA DT. I am thrilled to be enrolled in this class as I have been increasingly interested in web development in creating something fresh, unique and entertaining. I am also interested in 3D modelling and digital design. </p>
+      </div>
       
       <h3><a href="projects.html">Projects </a></h3>
       
-      <h4> Calculator :D </h4>
+    <div class="calcBox">
+    <h4> Calculator :D </h4>
     <div id="input"> 
     <input type = "text" id = "num1">
-    <input type = "text" id = "num2">
-        
+    <input type = "text" id = "num2">   
+    <br>
+        <br>
+    <button onClick="addition()">Addition</button>
+    <button onClick="subtraction()">Subtraction</button>
+    <button onClick="multiplication()">Multiplication</button>
+    <button onClick="division()">Division</button>
     </div>
-      
-    <button onClick="clickMe()">I am a Button</button>
-    <button onClick="addMe()">Add Me</button>
-    <button onClick="addMeTwo()">Add Me Two</button>
+    </div>
+   
 <!--
   <script>
       document.write("Hello world! This is HTML5 Boilerplate.");

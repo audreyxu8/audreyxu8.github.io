@@ -31,32 +31,44 @@ body {
 
  h1,
  h2,
- h3{
+ h3,
+ h4{
     text-shadow: 3px 2px purple;
     font-family"Times new Roman";
  }
 
- h1{
-    font-size: 90px;
- }
+h1{
+    font-size: 40px;
+}
 
- h2{
-    font-size: 90px;
- }
- h3{
-    font-size: 80px;
- } 
+h3{
+    font-size:30px;
+}
 
- p{
-
+h4{
+    font-size:40px;
+}
+#introBorder{
+    
   background-color: lightgrey;
-  width: 1900px;
+  width: 1080px;
   border: 25px groove purple;
   padding: 25px;
   margin: 25px;
     
-    font-size:50px;
- }
+  font-size:20px;
+}
+
+
+.calcBox{
+  background-color: lightgrey;
+  width: 450px;
+  height: 400px;
+  border: 25px groove purple;
+  padding: 25px;
+  margin: 25px;
+    
+  font-size:20px;
 }
 
 /* Grouping content
