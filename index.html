@@ -2,19 +2,60 @@
 <html>
   <head>
     <title> Audrey's Site:) </title>
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
   </head>
     
-  <body style="background-image:url('spike copy.png')">
+  <body style="background-image:url('img/spike copy.png')">
       <h1> Web Advanced: Javascript.B.Sp19 </h1>
       
       <h2> Audrey Xu </h2>
-        <img src ="audrey.jpg" alt="audrey" width="500" height="700">
+        <img src ="img/audrey.jpg" alt="audrey" width="500" height="700">
       
         <p> Hello, it is me, Audrey. I am a 19 year old sophmore currently enrolled in BFA DT. I am thrilled to be enrolled in this class as I have been increasingly interested in web development in creating something fresh, unique and entertaining. I am also interested in 3D modelling and digital design. </p>
       
-      <h3><a href=" ">Projects </a> </h3>
-    
+      <h3><a href="projects.html">Projects </a></h3>
+      
+      <h4> Calculator :D </h4>
+    <div id="input"> 
+    <input type = "text" id = "num1">
+    <input type = "text" id = "num2">
+        
+    </div>
+      
+    <button onClick="clickMe()">I am a Button</button>
+    <button onClick="addMe()">Add Me</button>
+    <button onClick="addMeTwo()">Add Me Two</button>
+<!--
+  <script>
+      document.write("Hello world! This is HTML5 Boilerplate.");
+      alert("I'm awesome");
+      console.log("This is a message to my awesome self hehe <3 ");
+  </script>
+-->
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
     </body>
 
 
