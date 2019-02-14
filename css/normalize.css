@@ -55,7 +55,7 @@ h4{
   border: 25px groove purple;
   padding: 25px;
   margin: 25px;
-    
+  float:left
   font-size:20px;
 }
 
@@ -67,8 +67,9 @@ h4{
   border: 25px groove purple;
   padding: 25px;
   margin: 25px;
-    
   font-size:20px;
+/*  float:right;*/
+/*  display: block;*/
 }
 
 /* Grouping content

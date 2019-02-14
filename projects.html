@@ -17,27 +17,36 @@
   </head>
     
   <body style="background-image:url('img/spike copy.png')">
-      <h1> Web Advanced: Javascript.B.Sp19 </h1>
+      <h1> Projects </h1>
       
-      <h2> Audrey Xu </h2>
+      <h2> Calculator</h2>
       
-        <img src ="img/audrey.jpg" alt="audrey" width="200" height="300">
-      
-      <div id="introBorder">
-        <p> Hello, it is me, Audrey. I am a 19 year old sophmore currently enrolled in BFA DT. I am thrilled to be enrolled in this class as I have been increasingly interested in web development in creating something fresh, unique and entertaining. I am also interested in 3D modelling and digital design. </p>
-      </div>
-      
-      <h3><a href="projects.html">Projects </a></h3>    
-    
-   
+      <div class="calcBox">
+    <h4> Calculator :D </h4>
+    <div id="input"> 
+    <input type = "text" id = "num1">
+    <input type = "text" id = "num2">  
+    <br>
+    <br>
+    <button id="addition()">Addition</button>
+    <button id="subtraction()">Subtraction</button>
+    <button id="multiplication()">Multiplication</button>
+    <button id="division()">Division</button>
+    <br>
+    <br>
+    <input type="text" id="output">
 <!--
-  <script>
-      document.write("Hello world! This is HTML5 Boilerplate.");
-      alert("I'm awesome");
-      console.log("This is a message to my awesome self hehe <3 ");
-  </script>
+    <input type = "text" id = "output"> 
+    <button id="Calculate()">Calculate</button>
 -->
-  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+
+    </div>
+    </div>
+    
+      <span id="output"></span>
+   
+      
+      <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script>
