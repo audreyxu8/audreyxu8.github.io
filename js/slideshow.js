@@ -3,7 +3,7 @@ jQuery.noConflict();
   $(function() {
       
     
-var images = ["img/extrude.jpg", "img/roy.jpg", "img/domes.jpg", "spike copy", "" ] 
+var images = ["img/extrude.jpg", "img/roy.jpg", "img/domes.jpg", "spike copy" ] 
     
 var length = images.length;
 
