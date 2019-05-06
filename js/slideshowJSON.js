@@ -7,7 +7,7 @@ function preload(file) {
     //load json data file
     $.getJSON(file, function(data) { 
         //loop through data to get image paths       
-        $.each(data.portfolio, function( i, obj ) {
+        $.each(data.lemurs, function( i, obj ) {
             //preload images
             var img = new Image();
             img.src = obj.image;

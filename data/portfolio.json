@@ -1,8 +1,8 @@
 {"portfolio":[
     { "title":"Spike", "caption":"Still from an animation","image":"img/spike.png"},
     { "title":"Butterfly", "caption":"Butterfly made with Illustrator","image":"img/butterfly.png" },
-    { "title":"Domes", "caption":"Made with Blender and Photoshop","image":"img/domes.jpg" },
-    { "title":"Extrusion of my face", "caption":"Extrusion of my face","image":"img/extrude.jpg"},
-    { "title":"Business Card for Roy", "caption":"A business card I made for my brother","image":"img/roy.jpg" }
+    { "title":"Domes", "caption":"Made with Blender and Photoshop","image":"img/domes.png" },
+    { "title":"Extrusion of my face", "caption":"Extrusion of my face","image":"img/extrude.png"},
+    { "title":"Business Card for Roy", "caption":"A business card I made for my brother","image":"img/roy.png" }
     
 ]}
