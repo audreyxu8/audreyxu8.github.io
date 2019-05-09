@@ -1,0 +1,11 @@
+# Rhino
+newmtl Default_OBJ
+Ka 1.0000 1.0000 1.0000
+Kd 0.8000 0.8000 0.8000
+Ks 0.5020 0.5020 0.5020
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 20.92
+map_Kd Default_OBJ_Base_Color.png
+map_Bump Default_OBJ_Normal.png
+
