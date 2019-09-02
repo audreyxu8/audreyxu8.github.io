@@ -75,7 +75,3 @@ h2 a:hover { color: #90bcd0; }
 #money:hover div.bottom { z-index:994; background-color:#b6781e; width:310px;
 	background:-moz-linear-gradient(-90deg, #b6781e, #916018); background:-webkit-gradient(linear, 0 top, 0 bottom, from(#b6781e), to(#916018)); }
 
-
-
-#apple { clear:both; margin-top:-70px; position:relative; z-index:-999; }
-#apple p { float:right; padding-top:247px; }
