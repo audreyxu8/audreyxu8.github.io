@@ -16,13 +16,18 @@ let modMinDepth = -200;
 
 
 var logo;
+var chefLogo;
 var x = 450;
-var y = 350;
+var y = 400;
 var startX = 0;
 var startY = 0;
 
+var button;
+
 function preload() {
   logo = loadImage("music_logo.png");
+  chefLogo = loadImage("chef_logo.png");
+
 }
 
 function setup() {
@@ -54,6 +59,12 @@ function setup() {
   // fade carrier in/out on mouseover / touch start
   toggleAudio(cnv);
 
+  //button
+  button = createButton('Enter');
+  button.position(1450, 680);
+  button.size(80,50);
+  button.mousePressed(enter);
+
 }
 
 // A function to play a note
@@ -72,16 +83,13 @@ function playNote(note, duration) {
 
 function draw() {
   background(255);
-  image(logo, x, y, 600, 400);
-
-
 
   // Draw a keyboard
 
   // The width for each key
   let w = width / notes.length;
   for (let i = 0; i < notes.length; i++) {
-    let x = i * w +100;
+    let x = i * w + 100;
     // If the mouse is over the key
     if (mouseX > x && mouseX < x + w && mouseY < height) {
       // If we're clicking
@@ -99,11 +107,12 @@ function draw() {
     ellipse(x, 0, w - 1, height - 1);
   }
 
+    image(logo, x, y, 600, 400);
+   image(chefLogo, 50,50,300,400);
 
 }
 
 function mousePressed(event) {
-
 
   if (event.button == 0 && event.clientX < width && event.clientY < height) {
     // Map mouse to the key index
@@ -132,14 +141,14 @@ function mousePressed(event) {
   strokeWeight(10);
   beginShape();
   for (let i = 0; i < waveform.length; i++) {
-    let x = map(i, 0, waveform.length, 0, width);
-    let y = map(waveform[i], -1, 1, -height / 2, height / 2);
-    vertex(x, y + height / 2);
+    let x2 = map(i, 0, waveform.length, 0, width);
+    let y2 = map(waveform[i], -1, 1, -height / 2, height / 2);
+    vertex(x2, y2 + height / 2);
   }
   endShape();
 
   strokeWeight(1);
- 
+
 }
 
 
@@ -158,4 +167,13 @@ function toggleAudio(cnv) {
   cnv.mouseOut(function() {
     carrier.amp(0.0, 1.0);
   });
+}
+
+//button
+function link(url, winName, options) {
+  winName && open(url, winName, options) || (location = url);
+}
+
+function enter() {
+  link("work.html");
 }
