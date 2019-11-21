@@ -1,4 +1,4 @@
- .glow {
+.glow {
   font-size: 90px;
   color: #fff;
   text-align: center;
@@ -314,12 +314,11 @@ chefLogo:hover {
     
 }
 
-
 p{
     position:absolute;
     font-size:20px;
     font-family: 'Fondamento', cursive;
-    margin-left: 700px;
+    margin-left: 900px;
     margin-top:70px;
     
 }
@@ -346,27 +345,28 @@ img:hover {
     margin-left: 750px;
 }
 
-#front{
+#worm{
     position:absolute;
-    margin-top: 850px;
-    margin-left:100px;
+    margin-top:150px;
+    margin-left:200px;
 }
 
-#cliff{
-      position:absolute;
-    margin-top: 1450px;
-    margin-left:500px;
+#worm1{
+    position:absolute;
+    margin-top: 900px;
+    margin-left:50px;
 }
 
-#top{
-      position:absolute;
-    margin-top: 2050px;
-    margin-left:100px;
+#worm2{
+    position:absolute;
+    margin-top: 900px;
+    margin-left:800px;
 }
 
-#side{
+#wormFull{
       position:absolute;
-    margin-top: 2650px;
-    margin-left:500px;
+    margin-top: 1850px;
+    margin-left:350px;
     margin-bottom:100px;
 }
+

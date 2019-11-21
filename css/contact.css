@@ -1,4 +1,4 @@
- .glow {
+.glow {
   font-size: 90px;
   color: #fff;
   text-align: center;
@@ -314,59 +314,78 @@ chefLogo:hover {
     
 }
 
+ .glowContact {
+  color: #666666;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
 
-p{
+
+
+.nyspin{
+  animation-name: spin, depth;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  text-align: center;
+}
+@keyframes spin {
+  from { transform: rotateY(0deg); }
+  to { transform: rotateY(-360deg); }
+}
+@keyframes depth {
+  0 { text-shadow: 0 0 black; }
+  25% { text-shadow: 1px 0 black, 2px 0 black, 3px 0 black, 4px 0 black, 5px 0 black; }
+  50% { text-shadow: 0 0 black; }
+  75% { text-shadow: -1px 0 black, -2px 0 black, -3px 0 black, -4px 0 black, -5px 0 black; }
+  100% { text-shadow: 0 0 black; }
+}
+
+.shspin{
+  animation-name: spin, depth;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  text-align: center;
+}
+@keyframes spin {
+  from { transform: rotateY(360deg); }
+  to { transform: rotateY(0deg); }
+}
+@keyframes depth {
+  0 { text-shadow: 0 0 black; }
+  25% { text-shadow: 1px 0 black, 2px 0 black, 3px 0 black, 4px 0 black, 5px 0 black; }
+  50% { text-shadow: 0 0 black; }
+  75% { text-shadow: -1px 0 black, -2px 0 black, -3px 0 black, -4px 0 black, -5px 0 black; }
+  100% { text-shadow: 0 0 black; }
+}
+
+#newyork{
     position:absolute;
-    font-size:20px;
     font-family: 'Fondamento', cursive;
-    margin-left: 700px;
-    margin-top:70px;
-    
-}
-
-.grayscale {-webkit-filter: grayscale(100%);}
-
-img:hover {
-	-webkit-filter: none;
-}
-
-#bunny{
-    position:absolute;
-    margin-top: 100px;
+    font-size: 90px;
+    margin-top:150px;
     margin-left:200px;
 }
 
-#bunny:hover{
-      animation: shake 0.5s;
+#shanghai{
+    position:absolute;
+    font-family: 'Fondamento', cursive;
+    font-size: 90px;
+    margin-top:150px;
+    margin-left:750px;
 }
 
 #description{
     position:absolute;
-    margin-top:400px;
-    margin-left: 750px;
-}
-
-#front{
-    position:absolute;
-    margin-top: 850px;
-    margin-left:100px;
-}
-
-#cliff{
-      position:absolute;
-    margin-top: 1450px;
+    font-family: 'Fondamento', cursive;
+    font-size: 50px;
+    margin-top:350px;
     margin-left:500px;
 }
 
-#top{
-      position:absolute;
-    margin-top: 2050px;
-    margin-left:100px;
-}
 
-#side{
-      position:absolute;
-    margin-top: 2650px;
-    margin-left:500px;
-    margin-bottom:100px;
-}
+
+

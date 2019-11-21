@@ -7,6 +7,17 @@
   animation: glow 1s ease-in-out infinite alternate;
 }
 
+ .aboutGlow {
+  font-size: 90px;
+  color: #666666;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+
 @-webkit-keyframes glow {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #6f6f6f, 0 0 40px #6f6f6f, 0 0 50px #6f6f6f, 0 0 60px #6f6f6f, 0 0 70px #6f6f6f;
@@ -315,6 +326,14 @@ chefLogo:hover {
 }
 
 
+#me{
+   position:absolute;
+   margin-top:35px; 
+   margin-left:300px;
+   box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.3);
+   
+}
+
 p{
     position:absolute;
     font-size:20px;
@@ -324,49 +343,9 @@ p{
     
 }
 
-.grayscale {-webkit-filter: grayscale(100%);}
+.invert {	-webkit-filter: none;}
 
 img:hover {
-	-webkit-filter: none;
-}
 
-#bunny{
-    position:absolute;
-    margin-top: 100px;
-    margin-left:200px;
-}
-
-#bunny:hover{
-      animation: shake 0.5s;
-}
-
-#description{
-    position:absolute;
-    margin-top:400px;
-    margin-left: 750px;
-}
-
-#front{
-    position:absolute;
-    margin-top: 850px;
-    margin-left:100px;
-}
-
-#cliff{
-      position:absolute;
-    margin-top: 1450px;
-    margin-left:500px;
-}
-
-#top{
-      position:absolute;
-    margin-top: 2050px;
-    margin-left:100px;
-}
-
-#side{
-      position:absolute;
-    margin-top: 2650px;
-    margin-left:500px;
-    margin-bottom:100px;
+    -webkit-filter: invert(100%);
 }
