@@ -1,4 +1,4 @@
- .glow {
+.glow {
   font-size: 90px;
   color: #fff;
   text-align: center;
@@ -21,7 +21,7 @@ h1{
   font-family: 'Fondamento', cursive;
     font-size:30px;
     margin-top:0px;
-    margin-left:600px;
+    margin-left:800px;
     
 }
 
@@ -261,37 +261,6 @@ chefLogo:hover {
     margin-left:300px;
 }
 
-/*work*/
-#bunny{
-    position:absolute;
-    margin-top: 500px;
-    margin-left:100px;
-}
-
-#worm{
-    position:absolute;
-    margin-top:600px;
-    margin-left:800px;
-}
-
-#webVR{
-    position:absolute;
-    margin-top:1300px;
-    margin-left:100px;
-}
-
-#lemon{
-    position:absolute;
-    margin-top:1400px;
-    margin-left:750px;
-}
-
-#flocky{
-    position:absolute;
-    margin-top:1800px;
-    margin-left:100px;
-    margin-bottom:100px;
-}
 
 
 
@@ -345,42 +314,89 @@ chefLogo:hover {
     
 }
 
-/*
-img.sticky
-{
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  width: 200px;
+p{
+    position:absolute;
+    font-size:20px;
+    font-family: 'Fondamento', cursive;
+    margin-left: 900px;
+    margin-top:70px;
+    
 }
-*/
+
+.grayscale {-webkit-filter: grayscale(100%);}
 
 img:hover {
-  /* Start the shake animation and make the animation last for 0.5 seconds */
-  animation: shake 0.5s;
-
-  /* When the animation is finished, start again */
-  animation-iteration-count: infinite;
+	-webkit-filter: none;
 }
 
-@keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
+#bunny{
+    position:absolute;
+    margin-top: 100px;
+    margin-left:200px;
 }
 
+#bunny:hover{
+      animation: shake 0.5s;
+}
 
+#description{
+    position:absolute;
+    margin-top:350px;
+    margin-left: 850px;
+}
 
+#video{
+    position:absolute;
+    margin-top:30px;
+    margin-left:140px;
+}
 
+#doc{
+    position:absolute;
+    margin-top:300px;
+    margin-left:1300px;
+    font-size:20px;
+}
 
+#proposal{
+    position:absolute;
+    margin-top:250px;
+    margin-left:150px;
+}
 
+#interview{
+    position:absolute;
+    margin-top:700px;
+    margin-left:200px;
+    
+}
 
+#alfonso{
+    position:absolute;
+    margin-left:750px;
+    margin-top:600px;
+}
 
+#in{
+    position:absolute;
+    margin-left:100px;
+    margin-top:1050px;
+}
+
+#in2{
+    position:absolute;
+    margin-left:400px;
+    margin-top:1050px;
+}
+
+#in3{
+    position:absolute;
+    margin-left:700px;
+    margin-top:1050px;
+}
+
+#in4{
+    position:absolute;
+    margin-left:1000px;
+    margin-top:1050px;
+}
