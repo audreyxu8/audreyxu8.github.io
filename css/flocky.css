@@ -339,10 +339,22 @@ img:hover {
       animation: shake 0.5s;
 }
 
+#d1{
+    position:absolute;
+    margin-top:150px;
+    margin-left:770px;
+}
+
 #description{
     position:absolute;
     margin-top:350px;
     margin-left: 850px;
+}
+
+#models{
+    position:absolute;
+    margin-top:1350px;
+    margin-left: 200px;
 }
 
 #video{
@@ -399,4 +411,34 @@ img:hover {
     position:absolute;
     margin-left:1000px;
     margin-top:1050px;
+}
+
+#in5{
+    position:absolute;
+    margin-left:100px;
+    margin-top:500px;
+}
+
+#in6{
+    position:absolute;
+    margin-left:400px;
+    margin-top:500px;
+}
+
+#in7{
+    position:absolute;
+    margin-left:700px;
+    margin-top:500px;
+}
+
+#in8{
+    position:absolute;
+    margin-left:950px;
+    margin-top:500px;
+}
+
+#manifesto{
+    position:absolute;
+    margin-left:500px;
+    margin-top:1500px;
 }
